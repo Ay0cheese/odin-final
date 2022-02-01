@@ -3,25 +3,50 @@
     <head>
     <title>Css Final</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     </head>
  
     <body>
-        <div class="header">
-            <H3>Header Logo</H3>
-            <p class="main title"><h1>This website is awesome</h1></p>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast </p>
-                <ul>
-                <p>Header link one</p>
-                <p>Header link two</p>
-                <p>Header link three</p>
-                </ul>
+        <header>
+            <div class="flex-header">
+                <div class="one">Header link one</div>
+                <div class="two">Header link two</div>
+                <div class="three">Header link three</div>
+            </div>
+        </header>
+
+        <hero>
+            <h2>This website is awesome!</h2>
+            <p>This website has some subtext that goes here under the main title. 
+                It's a smaller font and the color is lower contrast</p>
+                <div class="placeholder">This is a placeholder for an image</div>
+                    <button>Sign up</button>
+        </hero>
+
+        <container>
+            <h3>Some random information.</h3>
+                <div class="flex-random">
+                    <div class="one">this is some subtext under an illustration or image</div>
+                     <div class="two">this is some subtext under an illustration or image</div>
+                    <div class="three">this is some subtext under an illustration or image</div>
+                    <div class="four">this is some subtext under an illustration or image</div>
+                </div>
+        </container>
+
+        <container class="quote">
+            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just 
+                filling up space, or maybe people will actually read it. Who knows? All I know is that 
+            it looks nice.</p>
+            <p>-Thor, God of Thunder</p>
+        </container>
+
+        <container class="call2action">
+            <h3>Call to action! It's time!</h3>
+            <p>Sign up for our product by clicking that button right over there!</p>
             <button>Sign up</button>
-            <div class="placeholder"> this is a placeholder for an image</div>
-        </div>
+        </container>
 
-
-
+        <footer>Copyright @ Wa-de css project 2022</footer>
 
     </body>
 </html>
