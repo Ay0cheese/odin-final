@@ -1,24 +1,67 @@
 * {
     padding: 0px;
     margin: 0px;
-    background-color: #1f2937;
 }
 
-.header {
+.flex-header {
     padding: 10px 90px 100px 60px;
-    margin: 0px 0px 100px 0px;
+    margin: 0px;
     background-color: #1f2937;
     border: #1f2937;
     color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
 }
 
+.hero {
+    padding: 10px 90px 100px 60px;
+    margin: 0px;
+    background-color: #1f2937;
+    border: #1f2937;
+    color: white;
+    font-size: 18px;
+}
+}
 
 button {
     background-color: #3882f6;
     color: white;
 }
 
-.placeholder{
+.placeholder {
+    padding: 10px 90px 100px 60px;
+    margin: 0px;
     background-color: gray;
     font-size: 18px;
+}
+
+.middle {
+    padding: 10px 90px 100px 60px;
+    margin: 0px;
+    background-color: white;
+    display: flex-row;
+}
+
+.quote {
+    padding: 10px 90px 100px 60px;
+    margin: 0px;
+    background-color: #e5e7eb;
+
+}
+
+.call2action {
+    padding: 10px 90px 100px 60px;
+    margin: 0px;
+    border-color: lightsteelblue;
+}
+
+footer {
+    padding: 10px 90px 100px 60px;
+    margin: 0px;
+    
+    background-color: #1f2937;
+    border: #1f2937;
+    color: white; 
 }
